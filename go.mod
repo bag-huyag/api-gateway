@@ -2,8 +2,10 @@ module github.com/bag-huyag/api-gateway
 
 go 1.23.4
 
+require github.com/google/uuid v1.6.0
+
 require (
-	github.com/google/uuid v1.6.0
+	github.com/gorilla/mux v1.8.1 // indirect
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
